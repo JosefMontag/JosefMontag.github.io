@@ -39,13 +39,27 @@ a {
 .link-row {
   display: flex;
   justify-content: space-between;
-  max-width: 600px; /* Match width of the block above */
+  max-width: 550px;
   margin-top: 10px;
+  gap: 15px; /* adds space between items */
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .link-row b {
   flex: 1;
   text-align: center;
-}   
+  padding: 8px 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.link-row a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 100%;
+} 
 </style>
   
 <div class=container4>
