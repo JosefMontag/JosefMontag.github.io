@@ -36,9 +36,18 @@ a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) }
-
-   
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px; /* Match width of the block above */
+  margin-top: 10px;
+}
+.link-row b {
+  flex: 1;
+  text-align: center;
+}   
 </style>
+  
 <div class=container4>
 <b>Josef Montag</b><br><br>
 Associate Professor<br>
@@ -59,9 +68,11 @@ Profiles: <a href="http://ssrn.com/author=825865" target="_blank">SSRN</a> | <a
 <br>
 <br>
 <b>
-<a href="https://josefmontag.github.io/research" target="_self">Research</a></b><b>     &nbsp&nbsp
-<a href="https://josefmontag.github.io/teaching" target="_self">Teaching</a>            &nbsp&nbsp
-<a href="https://drive.google.com/file/d/1NX4-hqG6D82kJoHv4YRE1ioVf-G6b_GM" target="_blank">CV</a> &nbsp&nbsp
-<a href="https://josefmontag.github.io/nonacademic">Non-Academic</a>
+<div class="link-row">
+  <b><a href="https://josefmontag.github.io/research" target="_self">Research</a></b>
+  <b><a href="https://josefmontag.github.io/teaching" target="_self">Teaching</a></b>
+  <b><a href="https://drive.google.com/file/d/1NX4-hqG6D82kJoHv4YRE1ioVf-G6b_GM" target="_blank">CV</a></b>
+  <b><a href="https://josefmontag.github.io/nonacademic" target="_self">Non-Academic</a></b>
+</div>
 </b>
 </div>
